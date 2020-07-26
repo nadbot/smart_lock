@@ -15,5 +15,7 @@ The other (or arduino) is connected to the keypad. Once the correct password is 
 - TODO fix servo control (moves too much/little)
 - TODO fix error (still works after reset without problems) 
     - serial.serialutil.SerialException: could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+    
+    
 Code, that creates an access point and web server. When url /open is called, servo motor unlocks door, when /lock is called, servo motor locks door
 
