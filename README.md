@@ -18,10 +18,21 @@ The other (or arduino) is connected to the keypad. Once the correct password is 
     
     
 Code, that creates an access point and web server. When url /open is called, servo motor unlocks door, when /lock is called, servo motor locks door
+https://tttapa.github.io/ESP8266/Chap07%20-%20Wi-Fi%20Connections.html
+
 
 ## Keypad
+- TODO currently only opens door if password is correct (need to lock it somehow, maybe through a button next to lock?)
+- TODO add display to show entered letters (as *)
+- TODO fix bug, that client says timeout even though it sends the get request
+
 https://diyi0t.com/keypad-arduino-esp8266-esp32/
 
-## Have button on keyboard (of PC in different network
+
+# Future elements
+
+## Have button on keyboard (of PC in different network)
 - Connect 2 networks: https://speedify.com/blog/combining-internet-connections/how-to-join-two-wi-fi-networks-at-once/
 - Change function of button (example f10)
+
+## Have button on lock to lock it after entering room
